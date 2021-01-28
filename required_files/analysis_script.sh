@@ -93,7 +93,7 @@ done
 mkdir $WKDIR/count
 mkdir $WKDIR/diff_expr_analysis
 
-for i in *.markdup.bam
+for i in $WKDIR/*.markdup.bam
   do
   htseq-count -f bam -s no -t gene -i ID $i $FEATURES > $i.count.txt
   mv $i.count.txt $WKDIR/count
