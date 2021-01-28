@@ -8,3 +8,4 @@ Clone the repository and add the read files in the base directory. To start the 
 
 The `blast_analysis.sh` script creates a BLAST database from C. albicans protein fasta sequences and performs BLASTp with all C. auris proteins supplied in fasta format on this database to find homologues.
 
+The `edgeR_analysis.R` script contains code for differential expression analysis with the count data.
