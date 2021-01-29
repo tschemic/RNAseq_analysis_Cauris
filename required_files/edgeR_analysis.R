@@ -71,7 +71,7 @@ colnames(res) <- c('geneID', 'logFC_470140', 'logCPM_470140', 'PValue_470140', '
  'logFC_470147', 'logCPM_470147', 'PValue_470147', 'FDR_470147',
  'logFC_470154', 'logCPM_470154', 'PValue_470154', 'FDR_470154')
 
-#write.xlsx(res, 'results.xlsx')
+write.xlsx(res, 'results.xlsx')
 
 # generate volcano plots in (log2FC, -log10FDR) axes
 
@@ -108,3 +108,21 @@ plot + cleanup + geom_text(aes(label=d$samples$description))
 pdf(file = "PCA.pdf")
 plot + cleanup + geom_text(aes(label=d$samples$description))
 dev.off()
+
+### C. albicans orthologs mapping 
+
+blast <- read_tsv('blast.result', col_names=FALSE)
+colnames(blast) <- c('protAuris', 'protAlbicans', 'Ident', 'Align', 'Mismatches', 'Gaps', 
+                     'qStart', 'qEnd', 'sStart', 'sEnd', 'EValue', 'Score')
+
+IDs <- read_tsv('C_auris_ID_table.txt', col_names = FALSE)
+colnames(IDs) <- c('start', 'end', 'protAuris', 'function', 'geneID')
+
+IDs$length <- (IDs$end - IDs$start + 1) / 3
+
+blastIDs <- merge(IDs, blast, by.x=3, by.y=1)
+
+blastIDs$qCover <- blastIDs$Align / blastIDs$length * 100
+
+
+
