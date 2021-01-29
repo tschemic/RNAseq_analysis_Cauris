@@ -1,0 +1,13 @@
+files	group	description
+470140_A_S1_R1_001.fastq.gz.trimmed.fq.bam.sort.bam.markdup.bam.count.txt.crop.txt	470140	470140_rep1
+470140_B_S2_R1_001.fastq.gz.trimmed.fq.bam.sort.bam.markdup.bam.count.txt.crop.txt	470140	470140_rep2
+470140_C_S3_R1_001.fastq.gz.trimmed.fq.bam.sort.bam.markdup.bam.count.txt.crop.txt	470140	470140_rep3
+470147_A_S4_R1_001.fastq.gz.trimmed.fq.bam.sort.bam.markdup.bam.count.txt.crop.txt	470147	470147_rep1
+470147_B_S5_R1_001.fastq.gz.trimmed.fq.bam.sort.bam.markdup.bam.count.txt.crop.txt	470147	470147_rep2
+470147_C_S6_R1_001.fastq.gz.trimmed.fq.bam.sort.bam.markdup.bam.count.txt.crop.txt	470147	470147_rep3
+470154_A_S7_R1_001.fastq.gz.trimmed.fq.bam.sort.bam.markdup.bam.count.txt.crop.txt	470154	470154_rep1
+470154_B_S8_R1_001.fastq.gz.trimmed.fq.bam.sort.bam.markdup.bam.count.txt.crop.txt	470154	470154_rep2
+470154_C_S9_R1_001.fastq.gz.trimmed.fq.bam.sort.bam.markdup.bam.count.txt.crop.txt	470154	470154_rep3
+CBS109_A_S10_R1_001.fastq.gz.trimmed.fq.bam.sort.bam.markdup.bam.count.txt.crop.txt	CBS109	CBS109_rep1	
+CBS109_B_S11_R1_001.fastq.gz.trimmed.fq.bam.sort.bam.markdup.bam.count.txt.crop.txt	CBS109	CBS109_rep2
+CBS109_C_S12_R1_001.fastq.gz.trimmed.fq.bam.sort.bam.markdup.bam.count.txt.crop.txt	CBS109	CBS109_rep3
