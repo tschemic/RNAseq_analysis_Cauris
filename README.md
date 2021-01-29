@@ -33,7 +33,7 @@ Change the adapter sequence for read trimming in the `analysis_script.sh` file i
 
 Change into the required_files directory and run the analysis script (by typing: `bash analysis_script.sh`).
 
-After the pipeline has finished change into the diff_expr_analysis directory and use the edgeR_analysis.R script as a basis for differential expression analysis in R.
+After the pipeline has finished change into the diff_expr_analysis directory and use the `edgeR_analysis.R` script as a basis for differential expression analysis in R.
 
 
 
