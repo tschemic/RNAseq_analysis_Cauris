@@ -6,6 +6,6 @@ C. auris genome sequence and annotation file (obtained from NCBI) are provided. 
 
 Clone the repository and add the read files in the base directory. To start the analysis use: `bash analysis_script.sh`
 
-The `blast_analysis.sh` script creates a BLAST database from C. albicans protein fasta sequences and performs BLASTp with all C. auris proteins supplied in fasta format on this database to find homologues.
+The `blast_analysis.sh` script creates a BLAST database from C. albicans protein fasta sequences and performs BLASTp with all C. auris proteins supplied in fasta format on this database to find homologues. A results file is included in the repository (`blast.result`).
 
 The `edgeR_analysis.R` script contains code for differential expression analysis with the count data.
