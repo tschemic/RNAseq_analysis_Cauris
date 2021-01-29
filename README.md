@@ -25,7 +25,7 @@ All the above-mentioned tools have to be included in yout PATH environment.
 
 # Usage:
 
-Clone the repository by typing "git clone https://github.com/tschemic/RNAseq_analysis_mouse.git" and copy the raw data into the RNAseq_analysis directory.
+Clone the repository by typing "git clone https://github.com/tschemic/RNAseq_analysis_Cauris.git" and copy the raw data into the RNAseq_analysis directory.
 
 Clone the repository and add the read files in the base directory.
 
