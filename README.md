@@ -39,4 +39,3 @@ After the pipeline has finished change into the diff_expr_analysis directory and
 
 The `blast_analysis.sh` script creates a BLAST database from C. albicans protein fasta sequences and performs BLASTp with all C. auris proteins supplied in fasta format on this database to find homologues. A results file is included in the repository (`blast.result`).
 
-The `edgeR_analysis.R` script contains code for differential expression analysis with the count data.
